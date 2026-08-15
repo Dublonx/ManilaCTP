@@ -1,0 +1,19 @@
+ManilaCTP — Content
+
+HERO PAGE
+    TAGLINE : Your CTP Partner, From Setup to Support
+    HEADLINE : Reliable CTP Solutions, Right Here in Manila
+    SUBHEADLINE : ManilaCTP supplies and services Computer-to-Plate machines for commercial and newspaper printers nationwide
+    CALL TO ACTIONS : INQUIRE NOW | CONTACT US
+
+ABOUT US PAGE
+    LEFT :
+        TITLE : OUR STORY
+        SUBHEADLINE : At Manila CTP Printing, we provide professional Computer-to-Plate (CTP) and 
+        digital printing services in Metro Manila, with our customers at the heart of everything we do. We are committed to integrity, quality, and honor in service.
+        RATINGS : USER NAME, USER MESSAGE, STARS
+    RIGHT :
+        IMAGE : MACHINE
+
+SERVICES PAGE
+    
