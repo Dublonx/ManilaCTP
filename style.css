@@ -27,6 +27,11 @@ body {
     --ff-heading: "Montserrat", sans-serif;
     --ff-subheading: "Poppins", sans-serif;
     /* sizing */
+    --sz-heading: 5rem;
+    --sz-subheading: 3rem;
+    --sz-title: 1.5rem;
+    --sz-bold: 1rem;
+    --sz-text: 0.875rem; 
     /* gaps */
     /* radius */
 }
