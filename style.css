@@ -12,3 +12,19 @@ html,
 body {
     scroll-behavior: smooth;
 }
+
+/* css variables */
+:root {
+    /* colors */
+    --c-even-background: hsl(0, 0%, 96%);
+    --c-odd-background: hsl(180, 4%, 95%);
+    --c-button: hsl(212, 59%, 25%);
+    --c-button-hover: hsl(212, 73%, 18%);
+    --c-caption: hsl(221, 67%, 45%);
+    --c-heading: hsl(0, 0%, 17%);
+    --c-subheading: hsl(0, 0%, 96%);
+    /* fonts */
+    /* sizing */
+    /* gaps */
+    /* radius */
+}
