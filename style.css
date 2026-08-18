@@ -24,6 +24,8 @@ body {
     --c-heading: hsl(0, 0%, 17%);
     --c-subheading: hsl(0, 0%, 96%);
     /* fonts */
+    --ff-heading: "Montserrat", sans-serif;
+    --ff-subheading: "Poppins", sans-serif;
     /* sizing */
     /* gaps */
     /* radius */
