@@ -1,5 +1,5 @@
 /* google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Chango&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
@@ -11,4 +11,51 @@
 html,
 body {
     scroll-behavior: smooth;
+}
+
+/* css variables — inspired bmw */
+:root {
+    /* colors */
+    --c-canvas: #ffffff;
+    --c-surface-soft: #f7f7f7;
+    --c-surface-card: #fafafa;
+    --c-hairline: #e6e6e6;
+    --c-cta-primary: #1c69d4;
+    --c-cta-primary-hover: #0653b6;
+    --c-default-heading: #262626;
+    --c-default-subheading: #3c3c3c;
+    --c-muted: #6b6b6b;
+    --c-dark-soft: #bbbbbb;
+    /* fonts */
+    --ff-heading: "Inter", sans-serif;
+    --ff-subheading: "Poppins", sans-serif;
+    /* sizing */
+    --sz-heading-lg: 4rem;
+    --sz-heading-md: 3rem;
+    --sz-heading-sm: 2rem;
+    --sz-title: 1.3rem;
+    --sz-title-md: 1rem;
+    --sz-title-sm: 0.875rem;
+    --sz-button-text: 0.875rem;
+    --sz-nav-link: 0.875;
+    --sz-caption: 0.75rem;
+    /* weight */
+    --w-heading-lg: 700;
+    --w-heading-md: 700;
+    --w-heading-sm: 700;
+    --w-title: 700;
+    --w-title-md: 700;
+    --w-title-sm: 700;
+    --w-button-text: 700;
+    --w-nav-link: 400;
+    --w-caption: 400;
+    /* gap */
+    --gap-section: 80px;
+    --gap-lg: 12px;
+    --gap-md: 8px;
+    --gap-sm: 4px;
+    /* radius */
+    --rd-lg: 12px;
+    --rd-md: 8px;
+    --rd-sm: 4px;
 }
