@@ -33,7 +33,9 @@ body {
     --sz-bold: 1rem;
     --sz-text: 0.875rem; 
     /* gaps */
-    
+    --gap-lg: 16px;
+    --gap-md: 8px;
+    --gap-sm: 4px;
     /* radius */
     --rd-lg: 16px;
     --rd-md: 8px;
