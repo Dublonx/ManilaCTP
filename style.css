@@ -12,36 +12,3 @@ html,
 body {
     scroll-behavior: smooth;
 }
-
-/* css variables */
-:root {
-    /* colors */
-    --c-even-background: hsl(0, 0%, 96%);
-    --c-odd-background: hsl(180, 4%, 95%);
-    --c-button: hsl(212, 59%, 25%);
-    --c-button-hover: hsl(212, 73%, 18%);
-    --c-caption: hsl(221, 67%, 45%);
-    --c-heading: hsl(0, 0%, 17%);
-    --c-subheading: hsl(0, 0%, 96%);
-    /* fonts */
-    --ff-heading: "Montserrat", sans-serif;
-    --ff-subheading: "Poppins", sans-serif;
-    /* sizing */
-    --sz-heading: 5rem;
-    --sz-subheading: 3rem;
-    --sz-title: 1.5rem;
-    --sz-bold: 1rem;
-    --sz-text: 0.875rem; 
-    /* gaps */
-    --gap-lg: 16px;
-    --gap-md: 8px;
-    --gap-sm: 4px;
-    /* radius */
-    --rd-lg: 16px;
-    --rd-md: 8px;
-    --rd-sm: 4px;
-}
-
-/* manila ctp */
-
-/* navigation */
