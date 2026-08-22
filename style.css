@@ -72,7 +72,7 @@ header {
     width: 100%;
 }
 
-.container {
+.header-grp {
     max-width: 1200px;
     margin: 1rem auto;
     width: 90%;
@@ -141,3 +141,9 @@ header {
 }
 
 /* main */
+
+/* hero */
+.hero {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url('Assets/Images/background.png') no-repeat center/cover;
+    min-height: 100vh;
+}
