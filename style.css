@@ -82,6 +82,10 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: var(--rd-lg);
+    padding: .5rem 5rem;
+    backdrop-filter: blur(8px);
 }
 
 .header-navigation img {
@@ -102,7 +106,7 @@ header {
     font-size: var(--sz-title-sm);
     font-weight: 400;
     text-decoration: none;
-    color: var(--c-default-subheading);
+    color: var(--c-hairline);
 }
 
 .navigation-actions {
