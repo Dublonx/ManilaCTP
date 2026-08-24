@@ -15,7 +15,49 @@ body {
 }
 
 /* css variables — inspired bmw */
-
+:root {
+    /* colors */
+    --c-canvas: #ffffff;
+    --c-surface-soft: #f7f7f7;
+    --c-surface-card: #fafafa;
+    --c-cta-primary: #1a2129;
+    --c-cta-hover: #262e38;
+    --c-cta-hairline: #e6e6e6;
+    --c-ink: #262626;
+    --c-body: #3c3c3c;
+    --c-muted: #6b6b6b;
+    --c-dark-soft: #bbbbbb;
+    /* fonts */
+    --ff-ink: "Inter", sans-serif;
+    --ff-body: "Poppins", sans-serif;
+    /* sizing */
+    --sz-display-xl: 4rem;
+    --sz-display-lg: 3rem;
+    --sz-display-md: 2rem;
+    --sz-display-sm: 1.5rem;
+    --sz-title-lg: 1.3rem;
+    --sz-title-md: 1.2rem;
+    --sz-title-sm: 1rem;
+    --body-md: 1rem;
+    --body-sm: 0.875rem;
+    /* weight */
+    --w-display: 700;
+    --w-title: 700;
+    --w-body: 400;
+    --w-button: 700;
+    --w-nav: 400;
+    /* gaps */
+    --g-section: 80px;
+    --g-lg: 24px;
+    --g-md: 16px;
+    --g-sm: 12px;
+    --g-xs: 8px;
+    /* radius */
+    --rd-lg: 24px;
+    --rd-md: 16px;
+    --rd-sm: 12px;
+    --rd-xs: 8px;
+}
 
 /* manila ctp */
 
