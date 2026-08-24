@@ -74,7 +74,7 @@ header {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 16px 0;
+    padding: 12px 0;
 }
 
 .navigation-content {
@@ -131,4 +131,53 @@ header {
 
 .navigation-actions > .menu {
     display: none;
+}
+
+/* main */
+
+/* home */
+.home-group {
+    background: linear-gradient(to top, rgba(0, 0, 0, 9), rgba(0, 0, 0, 0)), url('Assets/Images/background.png') no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-height: 100vh;
+}
+
+.home-content {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    gap: var(--g-sm);
+    max-width: 700px;
+}
+
+.home-tagline {
+    font-family: var(--ff-body);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
+    color: var(--c-body);
+}
+
+.home-heading {
+    font-family: var(--ff-ink);
+    font-size: var(--sz-display-lg);
+    font-weight: var(--w-display);
+}
+
+.home-subheading {
+    font-family: var(--ff-body);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
+}
+
+.home-cta-grp {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    gap: var(--g-lg);
 }
