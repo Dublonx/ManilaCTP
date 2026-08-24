@@ -38,8 +38,8 @@ body {
     --sz-title-lg: 1.3rem;
     --sz-title-md: 1.2rem;
     --sz-title-sm: 1rem;
-    --body-md: 1rem;
-    --body-sm: 0.875rem;
+    --sz-body-md: 1rem;
+    --sz-body-sm: 0.875rem;
     /* weight */
     --w-display: 700;
     --w-title: 700;
@@ -62,3 +62,73 @@ body {
 /* manila ctp */
 
 /* navigation */
+header {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--c-surface-soft);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+
+.navigation-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link ul {
+    display: flex;
+    gap: var(--g-lg);
+}
+
+.nav-link ul li {
+    list-style-type: none;
+}
+
+.nav-link ul li a {
+    font-family: var(--ff-body);
+    font-size: var(--sz-body-sm);
+    font-weight: var(--w-body);
+    text-decoration: none;
+    color: var(--c-body);
+}
+
+.navigation-actions {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background-color: var(--c-cta-primary);
+    border-radius: var(--rd-xs);
+    color: var(--c-dark-soft);
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: .5s ease;
+    font-weight: var(--w-button);
+}
+
+.btn:hover {
+    background-color: var(--c-cta-hover);
+}
+
+.btn i {
+    transition: .5s ease;
+}
+
+.btn:hover i {
+    transform: translateX(4px);
+}
+
+.navigation-actions > .menu {
+    display: none;
+}
