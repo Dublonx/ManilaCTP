@@ -142,36 +142,3 @@ section {
 }
 
 /* home */
-.home-background {
-    background: linear-gradient(to top, rgba(0, 0, 0, 9), rgba(0, 0, 0, 0)), url('Assets/Images/background.png') no-repeat center/cover;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-}
-
-.home-tagline {
-    font-family: var(--ff-body);
-    font-size: var(--sz-body-md);
-    font-weight: var(--w-body);
-    color: var(--c-body);
-}
-
-.home-heading {
-    font-family: var(--ff-ink);
-    font-size: var(--sz-display-lg);
-    font-weight: var(--w-display);
-    color: var(--c-ink);
-}
-
-.home-subheading {
-    font-family: var(--ff-body);
-    font-size: var(--sz-body-md);
-    font-weight: var(--w-body);
-    color: var(--c-body);
-}
-
-.home-cta-grp {
-    margin-top: 24px;
-    display: flex;
-    gap: var(--g-lg);
-}
