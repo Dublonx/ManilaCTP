@@ -101,11 +101,6 @@ header {
     color: var(--c-body);
 }
 
-.navigation-actions {
-    display: flex;
-    align-items: center;
-}
-
 .btn {
     border: none;
     outline: none;
@@ -130,7 +125,7 @@ header {
     transform: translateX(4px);
 }
 
-.navigation-actions > .menu {
+#menu {
     display: none;
 }
 
@@ -192,30 +187,36 @@ section {
 
 /* about */
 .about-content {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('Assets/Images/about.png') no-repeat center/cover;
-    width: 100%;
-    max-width: 90%;
-    height: 300px;
-    border-radius: var(--rd-xs);
-    padding: 0;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--g-lg);
 }
 
-.about-content-grp {
+.about-content-left {
     display: flex;
     flex-direction: column;
-    gap: var(--g-md);
-    padding: 24px;
+    gap: var(--g-xs);
     max-width: 700px;
-    position: absolute;
-    bottom: 0;
+}
+
+.about-content-right {
+    width: 400px;
+    height: auto;
+}
+
+.about-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: var(--rd-xs);
 }
 
 .about-title {
     font-family: var(--ff-ink);
     font-size: var(--sz-title-lg);
     font-weight: var(--w-title);
-    text-transform: uppercase;
     color: var(--c-ink);
 }
 
@@ -224,5 +225,4 @@ section {
     font-size: var(--sz-body-md);
     font-weight: var(--w-body);
     color: var(--c-body);
-    max-width: 900px;
 }
