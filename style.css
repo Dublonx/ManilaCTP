@@ -103,6 +103,10 @@ header.scroll {
     font-size: var(--sz-body-sm);
     font-weight: var(--w-body);
     text-decoration: none;
+    color: var(--c-cta-hairline);
+}
+
+.nLink.color {
     color: var(--c-ink);
 }
 
