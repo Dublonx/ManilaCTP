@@ -68,6 +68,11 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    /* background-color: var(--c-surface-soft); */
+    transition: .5s ease;
+}
+
+header.scroll {
     background-color: var(--c-surface-soft);
 }
 
@@ -98,7 +103,7 @@ header {
     font-size: var(--sz-body-sm);
     font-weight: var(--w-body);
     text-decoration: none;
-    color: var(--c-body);
+    color: var(--c-ink);
 }
 
 .btn {
@@ -142,7 +147,7 @@ section {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0)), url('Assets/Images/background.png') no-repeat fixed center/cover;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0)), url('Assets/Images/background.png') no-repeat fixed center/cover;
 }
 
 .home-content {
