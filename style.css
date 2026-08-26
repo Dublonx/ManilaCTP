@@ -222,11 +222,15 @@ section {
     align-items: center;
     justify-content: center;
     gap: var(--g-md);
+    border-radius: var(--rd-xs);
 }
 
 .a-images {
     width: 100%;
     height: auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: var(--rd-xs);
 }
 
 .a-images img {
@@ -234,4 +238,31 @@ section {
     height: auto;
     object-fit: cover;
     border-radius: var(--rd-xs);
+    transition: 0.5s ease;
+}
+
+.a-images-content {
+    position: absolute;
+    bottom: -100%;
+    padding: 16px 24px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    width: 100%;
+    transition: bottom 0.5s ease;
+}
+
+.a-images:hover .a-images-content {
+    bottom: 0;
+    height: 100%;
+}
+
+.a-images:hover img {
+    transform: scale(1.09);
+}
+
+.a-images-content .a-images-content-text {
+    text-align: right;
+    font-family: var(--ff-body);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
+    color: var(--c-canvas);
 }
