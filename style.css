@@ -189,9 +189,6 @@ section {
 
 .home-cta-grp {
     margin-top: 40px;
-    display: flex;
-    align-items: center;
-    gap: var(--g-lg);
 }
 
 /* about */
