@@ -189,6 +189,11 @@ section {
 
 .home-cta-grp {
     margin-top: 40px;
+    width: 100%;
+}
+
+.home-cta {
+    width: 200px;
 }
 
 /* about */
