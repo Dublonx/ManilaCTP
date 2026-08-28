@@ -238,20 +238,11 @@ section {
 .about-images {
     display: flex;
     flex-direction: column;
-    gap: var(--g-lg);
     width: 100%;
 }
 
 .about-images img {
     width: 300px;
-    height: 300px;
+    height: auto;
     object-fit: contain;
-}
-
-.img-top {
-    margin-left: auto;
-}
-
-.img-bottom {
-    margin-right: auto;
 }
