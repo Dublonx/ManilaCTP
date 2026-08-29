@@ -248,3 +248,25 @@ section {
     height: auto;
     object-fit: contain;
 }
+
+/* services */
+.services-grp {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--g-lg);
+}
+
+.services-images {
+    width: 100%;
+    height: auto;
+    border-radius: var(--rd-xs);
+}
+
+.services-images .services-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: var(--rd-xs);
+}
