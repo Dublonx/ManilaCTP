@@ -253,6 +253,8 @@ section {
     width: 100%;
     height: auto;
     border-radius: var(--rd-xs);
+    overflow: hidden;
+    position: relative;
 }
 
 .services-images .services-image {
@@ -260,4 +262,9 @@ section {
     height: auto;
     object-fit: cover;
     border-radius: var(--rd-xs);
+    transition: all .5s ease;
+}
+
+.services-images:hover .services-image {
+    transform: scale(1.05);
 }
