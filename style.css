@@ -72,21 +72,26 @@ header {
     transition: .5s ease;
 }
 
-header.scroll {
-    background-color: var(--c-surface-soft);
+/* #navigation {
+    transition: .5s ease;
 }
+
+#navigation.scroll {
+    background-color: var(--c-surface-soft);
+} */
 
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 12px 0;
+    padding: 0;
 }
 
 .navigation-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 12px;
 }
 
 .nav-link ul {
