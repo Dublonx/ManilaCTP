@@ -271,3 +271,60 @@ section {
 }
 
 /* contact */
+.contact-background {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(Assets/Images/contact.jpg) no-repeat center center/cover;
+    padding: 40px 0;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--g-xs);
+    max-width: 600px;
+}
+
+.contact-title {
+    font-family: var(--ff-ink);
+    font-size: var(--sz-title-lg);
+    font-weight: var(--w-title);
+    color: var(--c-canvas);
+}
+
+.contact-description {
+    font-family: var(--ff-body);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
+    color: var(--c-cta-hairline);
+    text-align: center;
+}
+
+.contact-input {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: var(--g-sm);
+    width: 400px;
+    position: relative;
+}
+
+.contact-input input[type="email"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: var(--rd-sm);
+    background: var(--c-surface-soft);
+    padding: 0 16px;
+}
+
+#contact-send {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
