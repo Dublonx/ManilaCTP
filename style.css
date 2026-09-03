@@ -202,48 +202,7 @@ section {
 }
 
 /* about */
-.about-container {
-    /* margin-top: 40px; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--g-xs);
-}
 
-.about-content {
-    max-width: 700px;
-    display: flex;
-    flex-direction: column;
-    gap: var(--g-lg);
-}
-
-.about-title {
-    font-family: var(--ff-ink);
-    font-size: var(--sz-title-lg);
-    font-weight: var(--w-title);
-    color: var(--c-ink);
-}
-
-.about-subheading {
-    font-family: var(--ff-body);
-    font-size: var(--sz-body-md);
-    font-weight: var(--w-body);
-    color: var(--c-body);
-}
-
-.about-images {
-    display: flex;
-    flex-direction: row;
-    gap: var(--g-md);
-    width: 400px;
-    height: 600px;
-}
-
-.about-images img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-}
 
 /* services */
 .services-grp {
