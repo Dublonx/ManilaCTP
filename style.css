@@ -199,6 +199,7 @@ section {
     font-weight: var(--w-title);
     color: var(--c-ink);
     text-align: center;
+    margin-bottom: 60px;
 }
 
 /* about */
@@ -263,7 +264,6 @@ section {
 
 /* services */
 .services-grp {
-    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
