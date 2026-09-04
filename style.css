@@ -143,3 +143,41 @@ body {
 .btn:hover i {
     transform: translateX(4px);
 }
+
+/* tablet */
+@media (max-width: 768px) {
+    .navigation-links ul {
+        display: none;
+    }
+
+    .navigation-actions {
+        gap: var(--gap-lg);
+    }
+
+    #navigation-hamburger {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        z-index: 99;
+    }
+
+    .navigation-links ul.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: var(--gap-lg);
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: var(--c-card);
+        backdrop-filter: blur(8px);
+        border-radius: var(--rd-md);
+        z-index: 99;
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+/* mobile */
