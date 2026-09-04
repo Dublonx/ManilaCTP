@@ -144,7 +144,7 @@ body {
     transform: translateX(4px);
 }
 
-/* tablet */
+/* tablet and mobile - responsive navigation */
 @media (max-width: 768px) {
     .navigation-links ul {
         display: none;
@@ -176,8 +176,10 @@ body {
         border-radius: var(--rd-md);
         z-index: 99;
         width: 100%;
-        height: 100vh;
+        height: 100vh;  
     }
 }
+
+/* tablet */
 
 /* mobile */
