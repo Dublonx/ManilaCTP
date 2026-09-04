@@ -11,17 +11,20 @@
 html,
 body {
     scroll-behavior: smooth;
+    background-color: var(--c-canvas);
 }
 
-/* css variables */
+/* css variables - BMW M */
 :root {
     /* colors */
-    --c-canvas: #000000;
+    --c-canvas: #222222;
     --c-footer: #0d0d0d;
     --c-card: #1a1a1a;
     --c-heading: #ffffff;
     --c-subheading: #e6e6e6;
     --c-footer-text: #7e7e7e;
+    --c-button: #0066b1;
+    --c-button-hover: #1c69d4;
     /* fonts */
     --ff-heading: "Archivo", sans-serif;
     --ff-subheading: "Poppins", sans-serif;
@@ -52,4 +55,91 @@ body {
     --rd-sm: 2px;
     --rd-md: 4px;
     --rd-lg: 6px;
+}
+
+/* navigation */
+.navigation-ctp {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--c-footer-text);
+}
+
+.navigation {
+    width: 90%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navigation-grp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-logo {
+    display: block;
+    width: 40px;
+    height: auto;
+}
+
+.navigation-actions {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: var(--gap-lg);
+}
+
+.navigation-links ul {
+    display: flex;
+    align-items: center;
+    gap: var(--gap-lg);
+}
+
+.navigation-links ul li {
+    list-style-type: none;
+}
+
+.navigation-links ul li a {
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-body-sm);
+    font-weight: var(--w-links);
+    text-decoration: none;
+    color: var(--c-subheading);
+}
+
+#navigation-hamburger {
+    display: none;
+    color: var(--c-heading);
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    padding: 0 24px;
+    outline: none;
+    border: none;
+    color: var(--c-subheading);
+    background-color: var(--c-button);
+    border-radius: var(--rd-md);
+    cursor: pointer;
+    transition: background-color .5s ease;
+}
+
+.btn:hover {
+    background-color: var(--c-button-hover);
+}
+
+.btn i {
+    transition: .5s ease;
+}
+
+.btn:hover i {
+    transform: translateX(4px);
 }
