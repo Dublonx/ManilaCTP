@@ -111,6 +111,23 @@ body {
     font-weight: var(--w-links);
     text-decoration: none;
     color: var(--c-subheading);
+    position: relative;
+}
+
+.navigation-links ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: var(--c-button);
+    transition: all .5s ease;
+}
+
+.navigation-links ul li a:hover::before {
+    width: 100%;
 }
 
 #navigation-hamburger {
