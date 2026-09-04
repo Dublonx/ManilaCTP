@@ -1,1 +1,55 @@
 /* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+/* css variables */
+:root {
+    /* colors */
+    --c-canvas: #000000;
+    --c-footer: #0d0d0d;
+    --c-card: #1a1a1a;
+    --c-heading: #ffffff;
+    --c-subheading: #e6e6e6;
+    --c-footer-text: #7e7e7e;
+    /* fonts */
+    --ff-heading: "Archivo", sans-serif;
+    --ff-subheading: "Poppins", sans-serif;
+    /* sizing */
+    --sz-heading-lg: 3.5rem;
+    --sz-heading-md: 2.5rem;
+    --sz-heading-sm: 2rem;
+    --sz-title-lg: 1.5rem;
+    --sz-title-md: 1.3rem;
+    --sz-title-sm: 1.1rem;
+    --sz-body-md: 1rem;
+    --sz-body-sm: 0.9rem;
+    --sz-label: 0.9rem;
+    --sz-button: 0.9rem;
+    /* weight */
+    --w-heading: 700;
+    --w-title: 700;
+    --w-body: 400;
+    --w-label: 700;
+    --w-button: 700;
+    --w-links: 400;
+    /* spacing */
+    --gap-xs: 4px;
+    --gap-sm: 8px;
+    --gap-md: 12px;
+    --gap-lg: 16px;
+    /* radius */
+    --rd-sm: 2px;
+    --rd-md: 4px;
+    --rd-lg: 6px;
+}
