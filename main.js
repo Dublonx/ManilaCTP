@@ -1,18 +1,14 @@
-// scroll navigation bar
-const navigation = document.querySelector('#navigation');
-const navLinks = document.querySelectorAll('.nLink');
+// responsive navigation bar
+const navLinks = document.querySelector('#nav-links ul');
+const hamburger = document.querySelector('#navigation-hamburger');
 
-window.addEventListener("scroll", () => {
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+
     // if
-    if (window.scrollY > 300) {
-        navigation.classList.add("scroll");
-        navLinks.forEach(navLink => {
-            navLink.classList.add("color");
-        });
+    if (navLinks.classList.contains("active")) {
+        hamburger.className = "fa-solid fa-xmark";
     } else {
-        navigation.classList.remove("scroll");
-        navLinks.forEach(navLink => {
-            navLink.classList.remove("color");
-        });
+        hamburger.classList = "fa-solid fa-bars";
     }
 });
