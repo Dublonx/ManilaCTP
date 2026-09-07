@@ -17,9 +17,9 @@ body {
 /* css variables - BMW M */
 :root {
     /* colors */
-    --c-canvas: #222222;
-    --c-footer: #0d0d0d;
-    --c-card: #1a1a1a;
+    --c-canvas: #ffffff;
+    --c-footer: #f7f7f7;
+    --c-card: #fafafa;
     --c-heading: #ffffff;
     --c-subheading: #e6e6e6;
     --c-footer-text: #7e7e7e;
@@ -162,6 +162,19 @@ body {
 
 /* main */
 
+/* section */
+section {
+    padding: 80px 0;
+}
+
+/* title */
+.title {
+    font-family: var(--ff-heading);
+    font-size: var(--sz-title-sm);
+    font-weight: var(--w-title);
+    color: var(--c-button);
+}
+
 /* home */
 .main-home {
     display: flex;
@@ -228,6 +241,19 @@ body {
 
 .home-cta:last-child:hover {
     background-color: var(--c-button-hover);
+}
+
+/* about */
+.about-content {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.about-message {
+    max-width: 700px;
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
 }
 
 /* ============================= */
