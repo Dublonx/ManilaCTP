@@ -12,3 +12,15 @@ hamburger.addEventListener("click", () => {
         hamburger.classList = "fa-solid fa-bars";
     }
 });
+
+// navigation scroll > 300
+const navigationScroll = document.querySelector('#navigation-scroll');
+
+window.addEventListener("scroll", () => {
+    // if
+    if (window.scrollY > 300) {
+        navigationScroll.classList.add("scroll");
+    } else {
+        navigationScroll.classList.remove("scroll");
+    }
+});
