@@ -25,6 +25,7 @@ body {
     --c-footer-text: #7e7e7e;
     --c-button: #0066b1;
     --c-button-hover: #1c69d4;
+    --c-navigation: #222222;
     /* fonts */
     --ff-heading: "Archivo", sans-serif;
     --ff-subheading: "Poppins", sans-serif;
@@ -110,7 +111,7 @@ body {
     font-size: var(--sz-body-sm);
     font-weight: var(--w-links);
     text-decoration: none;
-    color: var(--c-subheading);
+    color: var(--c-navigation);
     position: relative;
 }
 
@@ -166,7 +167,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to top, rgba(0, 0, 0, 9), rgba(0, 0, 0, 0)), url(Assets/Images/background.png) no-repeat fixed center/cover;
+    background: linear-gradient(to top, rgba(0, 0, 0, 9), rgba(0, 0, 0, 0)), url(Assets/Images/background\ 1.jpg) no-repeat fixed center/cover;
     min-height: 100vh;
 }
 
