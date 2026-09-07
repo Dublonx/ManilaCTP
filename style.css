@@ -171,6 +171,7 @@ section {
     font-weight: var(--w-title);
     color: var(--c-button);
     text-transform: uppercase;
+    margin-bottom: 40px;
 }
 
 /* home */
@@ -228,7 +229,6 @@ section {
 
 /* about */
 .about-content {
-    margin-top: 40px;
     max-width: 700px;
 }
 
@@ -237,6 +237,25 @@ section {
     font-size: var(--sz-body-md);
     font-weight: var(--w-body);
     color: #222222;
+}
+
+/* services */
+.services-cards-grp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    gap: var(--gap-lg);
+}
+
+.services-card {
+    width: 100%;
+    height: auto;
+}
+
+.services-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /* ============================= */
