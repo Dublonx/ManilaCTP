@@ -335,6 +335,7 @@ section {
 
 /* tablet */
 @media (max-width: 768px) {
+    /* home */
     .home-content {
         gap: var(--gap-md);
     }
@@ -346,6 +347,43 @@ section {
     .home-subheading {
         font-size: var(--sz-body-sm);
     }
+
+    /* services */
+    .services-cards-grp {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* mobile */
+@media (max-width: 420px) {
+    /* home */
+    .home-content {
+        gap: var(--gap-sm);
+    }
+
+    .home-heading {
+        font-size: var(--sz-heading-sm);
+    }
+
+    .home-subheading {
+        font-size: var(--sz-body-sm);
+    }
+
+    .home-cta-grp {
+        flex-direction: column;
+    }
+
+    .home-cta {
+        width: 100%;
+    }
+
+    /* about */
+    .about-message {
+        font-size: var(--sz-body-sm);
+    }
+
+    /* services */
+    .services-cards-grp {
+        grid-template-columns: 1fr;
+    }
+}
