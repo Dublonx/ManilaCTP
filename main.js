@@ -29,5 +29,8 @@ window.addEventListener("scroll", () => {
 links.forEach(navLink => {
     navLink.addEventListener("click", () => {
         navLinks.classList.remove("active");
+
+        // changed icon
+        hamburger.className = "fa-solid fa-bars";
     });
 });
