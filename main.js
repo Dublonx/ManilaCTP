@@ -15,6 +15,7 @@ hamburger.addEventListener("click", () => {
 
 // navigation scroll > 300
 const navigationScroll = document.querySelector('#navigation-scroll');
+const links = document.querySelectorAll('.nav-link');
 
 window.addEventListener("scroll", () => {
     // if
@@ -23,4 +24,10 @@ window.addEventListener("scroll", () => {
     } else {
         navigationScroll.classList.remove("scroll");
     }
+});
+
+links.forEach(navLink => {
+    navLink.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+    });
 });
