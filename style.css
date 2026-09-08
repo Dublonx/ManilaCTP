@@ -58,6 +58,15 @@ body {
     --rd-lg: 6px;
 }
 
+/* ========================= */
+
+/* navigation scroll */
+#navigation-scroll.scroll {
+    background-color: var(--c-navigation);
+}
+
+/* ========================= */
+
 /* navigation */
 .navigation-ctp {
     position: fixed;
