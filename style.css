@@ -175,7 +175,7 @@ body {
 
 /* section */
 section {
-    padding: 80px 0;
+    padding: 88px 0;
 }
 
 /* title */
@@ -289,6 +289,101 @@ section {
     font-size: var(--sz-body-sm);
     font-weight: var(--w-body);
     color: #222222;
+}
+
+/* contact */
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-md);
+}
+
+.contact-title {
+    font-family: var(--ff-heading);
+    font-size: var(--sz-heading-sm);
+    font-weight: var(--w-title);
+    color: #000000;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-sm);
+}
+
+.contact-email,
+.contact-viber,
+.contact-landline,
+.contact-address {
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
+    color: #222222;
+}
+
+.contact-fblink {
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
+    color: var(--c-button);
+    text-decoration: none;
+}
+
+.contact-fblink::before {
+    content: "> ";
+}
+
+.content-right {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #222222;
+    padding: 32px 32px;
+    border-radius: var(--rd-sm);
+}
+
+.right-div {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+}
+
+.right-title {
+    font-family: var(--ff-heading);
+    font-size: var(--sz-title-sm);
+    font-weight: var(--w-title);
+    color: var(--c-button);
+}
+
+.right-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-sm);
+}
+
+.content-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-title {
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
+    color: #222222;
+}
+
+.text-open {
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
+    color: var(--c-button);
 }
 
 /* ============================= */
