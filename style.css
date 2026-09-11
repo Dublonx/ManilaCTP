@@ -385,6 +385,25 @@ section {
     color: var(--c-button);
 }
 
+/* footer */
+.main-footer {
+    border-top: 1px solid var(--c-navigation);
+}
+
+.footer-content {
+    padding: 32px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-text {
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-body-sm);
+    font-weight: var(--w-body);
+    color: var(--c-footer-text);
+}
+
 /* ============================= */
 
 /* tablet and mobile - responsive navigation */
