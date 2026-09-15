@@ -19,7 +19,7 @@ const links = document.querySelectorAll('.nav-link');
 
 window.addEventListener("scroll", () => {
     // if
-    if (window.scrollY > 300) {
+    if (window.scrollY > 100) {
         navigationScroll.classList.add("scroll");
     } else {
         navigationScroll.classList.remove("scroll");
