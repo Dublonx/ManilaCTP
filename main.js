@@ -34,3 +34,13 @@ links.forEach(navLink => {
         hamburger.className = "fa-solid fa-bars";
     });
 });
+
+// cta services
+const ctaServices = document.querySelector('#cta-services');
+const services = document.querySelector('#services');
+
+ctaServices.addEventListener("click", () => {
+    services.scrollIntoView({
+        behavior: "smooth"
+    })
+});
