@@ -11,6 +11,8 @@
 html,
 body {
     scroll-behavior: smooth;
+    scrollbar-width: none;
+    -webkit-scrollbar: none;
     background-color: var(--c-canvas);
 }
 
