@@ -1,6 +1,7 @@
 // responsive navigation bar
 const navLinks = document.querySelector('#nav-links ul');
 const hamburger = document.querySelector('#navigation-hamburger');
+const body = document.body;
 
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("active");
@@ -11,6 +12,9 @@ hamburger.addEventListener("click", () => {
     } else {
         hamburger.classList = "fa-solid fa-bars";
     }
+
+    // apply no-scroll when the navbar is active on mobile !
+    body.classList.toggle("no-scroll");
 });
 
 // navigation scroll > 300
@@ -32,6 +36,9 @@ links.forEach(navLink => {
 
         // changed icon
         hamburger.className = "fa-solid fa-bars";
+
+        // remove no-scroll effect
+        body.classList.remove("no-scroll");
     });
 });
 
