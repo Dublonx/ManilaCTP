@@ -249,7 +249,45 @@ section {
 }
 
 /* about */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--gap-lg);
+}
 
+.about-image {
+    width: 100%;
+    height: auto;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: var(--rd-lg);
+}
+
+.about-content {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-lg);
+}
+
+.about-title {
+    font-family: var(--ff-heading);
+    font-size: var(--sz-title-lg);
+    font-weight: var(--w-heading);
+    color: #000000;
+}
+
+.about-description {
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-body-md);
+    font-weight: var(--w-body);
+    color: #222222;
+}
 
 /* services */
 .services-cards-grp {
