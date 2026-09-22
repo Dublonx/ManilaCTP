@@ -70,6 +70,11 @@ body {
     color: var(--c-subheading);
 }
 
+/* overflow hidden when the navigation is active */
+.no-scroll {
+    overflow: hidden;
+}
+
 /* ========================= */
 
 /* navigation */
