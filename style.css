@@ -497,6 +497,13 @@ section {
         font-size: var(--sz-body-sm);
     }
 
+    /* about */
+    .about-container {
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        gap: var(--gap-lg);
+    }
+
     /* services */
     .services-cards-grp {
         grid-template-columns: repeat(2, 1fr);
@@ -546,7 +553,7 @@ section {
     }
 
     /* about */
-    .about-message {
+    .about-description {
         font-size: var(--sz-body-sm);
     }
 
