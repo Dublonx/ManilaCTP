@@ -371,8 +371,12 @@ section {
     text-decoration: none;
 }
 
-.contact-fblink::before {
-    content: "> ";
+.contact-fblink i {
+    color: var(--c-button-hover);
+}
+
+.contact-fblink:hover {
+    text-decoration: underline;
 }
 
 .content-right {
