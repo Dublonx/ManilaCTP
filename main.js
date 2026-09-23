@@ -51,3 +51,10 @@ ctaServices.addEventListener("click", () => {
         behavior: "smooth"
     })
 });
+
+// inquire now
+const inquireCta = document.querySelector('#inquire-now');
+
+inquireCta.addEventListener("click", () => {
+    window.location.href = "https://viber.me/639177387172";
+});
