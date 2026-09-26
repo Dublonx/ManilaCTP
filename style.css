@@ -155,6 +155,13 @@ body {
 }
 
 .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-xs);
+    text-decoration: none;
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-button);
     height: 40px;
     padding: 0 24px;
     outline: none;
