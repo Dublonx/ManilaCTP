@@ -579,8 +579,17 @@ section {
     }
 
     /* about */
+    .about-container {
+        gap: var(--gap-lg);
+    }
+    
     .about-description {
         font-size: var(--sz-body-sm);
+    }
+
+    .about-image img {
+        height: 500px;
+        object-fit: cover;
     }
 
     /* services */
