@@ -500,6 +500,11 @@ section {
 
 /* tablet */
 @media (max-width: 768px) {
+    /* navigation */
+    .navigation-grp {
+        padding: 0 16px;
+    }
+
     /* home */
     .home-content {
         gap: var(--gap-md);
@@ -547,6 +552,11 @@ section {
 
 /* mobile */
 @media (max-width: 420px) {
+    /* navigation */
+    .navigation-grp {
+        padding: 0 8px;
+    }
+
     /* home */
     .home-content {
         gap: var(--gap-sm);
