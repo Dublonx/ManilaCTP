@@ -155,6 +155,32 @@ body {
     color: var(--c-heading);
 }
 
+.navigation-cta-grp {
+    position: relative;
+}
+
+.navigation-cta-dropdown {
+    width: 100%;
+    position: absolute;
+    top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--gap-sm);
+    background-color: var(--c-button-hover);
+    border-radius: var(--rd-md);
+    padding: 1rem 0;
+}
+
+.n-cta-one,
+.n-cta-two {
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-button);
+    color: var(--c-subheading);
+    text-decoration: none;
+}
+
 .btn {
     display: inline-flex;
     align-items: center;
