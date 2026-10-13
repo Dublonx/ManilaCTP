@@ -625,6 +625,16 @@ section {
     .content-right {
         width: 100%;
     }
+
+    /* footer */
+    .footer-content {
+        flex-wrap: wrap;
+        gap: var(--gap-md);
+    }
+
+    .footer-right-content {
+        width: 100%;
+    }
 }
 
 /* mobile */
@@ -691,5 +701,15 @@ section {
     .text-title,
     .text-open {
         font-size: var(--sz-body-sm);
+    }
+
+    /* footer */
+    .footer-content {
+        gap: var(--gap-lg);
+    }
+
+    .footer-center-content {
+        flex-direction: column;
+        width: 100%;
     }
 }
