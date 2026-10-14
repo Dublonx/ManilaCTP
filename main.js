@@ -52,13 +52,6 @@ ctaServices.addEventListener("click", () => {
     })
 });
 
-// inquire now
-const inquireCta = document.querySelector('#inquire-now');
-
-inquireCta.addEventListener("click", () => {
-    window.location.href = "https://viber.me/639177387172";
-});
-
 // navigation cta dropdown
 const navigationCtaDropdown = document.querySelector('#navigation-cta-dropdown');
 const navigationDropdownClicked = document.querySelector('#navigation-dropdown-clicked');
