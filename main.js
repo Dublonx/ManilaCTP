@@ -59,3 +59,13 @@ const navigationDropdownClicked = document.querySelector('#navigation-dropdown-c
 navigationCtaDropdown.addEventListener("click", () => {
     navigationDropdownClicked.classList.toggle("clicked");
 });
+
+// contact
+const ctaContact = document.querySelector('#cta-contact');
+const contact = document.querySelector('#contact');
+
+ctaContact.addEventListener("click", () => {
+    contact.scrollIntoView({
+        behavior: "smooth"
+    })
+});
