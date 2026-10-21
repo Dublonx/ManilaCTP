@@ -366,25 +366,6 @@ section {
     color: #222222;
 }
 
-.services-content-text {
-    margin-top: 8px;
-    display: flex;
-    flex-direction: column;
-    gap: var(--gap-sm);
-}
-
-.text-btm {
-    /* margin-top: 8px; */
-    font-family: var(--ff-subheading);
-    font-size: var(--sz-body-sm);
-    font-weight: var(--w-body);
-    color: var(--c-button);
-}
-
-.text-btm::before {
-    content: "> ";
-}
-
 /* contact */
 .contact-content {
     display: flex;
