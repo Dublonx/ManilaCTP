@@ -366,6 +366,22 @@ section {
     color: #222222;
 }
 
+.services-highlights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.services-highlight-texts {
+    max-width: 400px;
+    text-align: center;
+    font-family: var(--ff-subheading);
+    font-size: var(--sz-body-sm);
+    font-weight: var(--w-body);
+    /* color: var(--c-button); */
+}
+
 /* contact */
 .contact-content {
     display: flex;
