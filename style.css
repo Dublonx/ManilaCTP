@@ -374,10 +374,10 @@ section {
 }
 
 .services-highlight-texts {
-    max-width: 400px;
+    max-width: 600px;
     text-align: center;
     font-family: var(--ff-subheading);
-    font-size: var(--sz-body-sm);
+    font-size: var(--sz-title-lg);
     font-weight: var(--w-body);
     /* color: var(--c-button); */
 }
