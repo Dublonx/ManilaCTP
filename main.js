@@ -73,12 +73,21 @@ ctaContact.addEventListener("click", () => {
 // footer nav links
 
 // home
-
 const fHome = document.querySelector('#f-home');
 const navHome = document.querySelector('#home');
 
 fHome.addEventListener("click", () => {
     navHome.scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
+// about
+const fAbout = document.querySelector('#f-about');
+const navAbout = document.querySelector('#about');
+
+fAbout.addEventListener("click", () => {
+    navAbout.scrollIntoView({
         behavior: "smooth"
     });
 });
