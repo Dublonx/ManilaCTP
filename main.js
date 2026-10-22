@@ -91,3 +91,14 @@ fAbout.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+// services
+const fServices = document.querySelector('#f-services');
+const navServices = document.querySelector('#services');
+
+fServices.addEventListener("click", () => {
+    navServices.scrollIntoView({
+        behavior: "smooth"
+    });
+});
+
