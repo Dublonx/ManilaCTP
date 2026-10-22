@@ -102,3 +102,12 @@ fServices.addEventListener("click", () => {
     });
 });
 
+// contact
+const fContact = document.querySelector('#f-contact');
+const navContact = document.querySelector('#contact');
+
+fContact.addEventListener("click", () => {
+    navContact.scrollIntoView({
+        behavior: "smooth"
+    });
+});
