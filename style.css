@@ -625,6 +625,10 @@ section {
     .services-cards-grp {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .services-highlight-texts {
+        font-size: var(--sz-title-md);
+    }
 
     /* contact */
     .contact-content {
