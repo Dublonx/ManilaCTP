@@ -702,6 +702,10 @@ section {
     .services-cards-grp {
         grid-template-columns: 1fr;
     }
+    
+    .services-highlight-texts {
+        font-size: var(--sz-title-sm);
+    }
 
     /* contact */
     .contact-title {
