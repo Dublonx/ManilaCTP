@@ -550,12 +550,8 @@ section {
 }
 
 /* another page */
-.another-page {
-    width: 100%;
-    height: auto;
-    background-image: url('Assets/Images/map.png');
-    background-size: cover;
-    background-position: center;
+#map-section {
+    
 }
 
 /* ============================= */
@@ -665,8 +661,9 @@ section {
         width: 100%;
     }
 
-    .another-page {
-        background-image: url('Assets/Images/mobile\ map.png');
+    /* another page */
+    #map-section {
+        background-image: url('Assets/Images/mobile_map.png');
     }
 }
 
