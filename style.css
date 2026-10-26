@@ -551,7 +551,20 @@ section {
 
 /* another page */
 #map-section {
-    
+    width: 100%;
+}
+
+.map-section-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--gap-lg);
+}
+
+.map-img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
 }
 
 /* ============================= */
