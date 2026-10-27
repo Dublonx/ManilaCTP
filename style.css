@@ -759,4 +759,10 @@ section {
         flex-direction: column;
         width: 100%;
     }
+
+    /* map section */
+    .map-section-image {
+        flex-direction: column;
+        width: 100%;
+    }
 }
