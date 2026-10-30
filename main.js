@@ -60,6 +60,14 @@ navigationCtaDropdown.addEventListener("click", () => {
     navigationDropdownClicked.classList.toggle("clicked");
 });
 
+// home cta dropdown
+const homeCtaDropdown = document.querySelector('#home-cta-dropdown');
+const homeDropdownClicked = document.querySelector('#home-dropdown-clicked');
+
+homeCtaDropdown.addEventListener("click", () => {
+    homeDropdownClicked.classList.toggle("clicked");
+});
+
 // contact
 const ctaContact = document.querySelector('#cta-contact');
 const contact = document.querySelector('#contact');
