@@ -611,7 +611,7 @@ section {
 }
 
 /* tablet */
-@media (max-width: 768px) {
+@media (max-width: 600px) and (min-width: 768px) {
     /* navigation */
     .navigation-grp {
         padding: 0 16px;
@@ -682,7 +682,7 @@ section {
 }
 
 /* mobile */
-@media (max-width: 420px) {
+@media (max-width: 599px) {
     /* navigation */
     .navigation-grp {
         padding: 0 8px;
